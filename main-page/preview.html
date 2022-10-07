@@ -30,10 +30,10 @@
               <a class="nav-link" href="home.html" style="margin-right: 3rem;"><b>Home</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" style="margin-right: 3rem;"><b>E-Book</b></a>
+              <a class="nav-link" href="e-book.html" style="margin-right: 3rem;"><b>E-Book</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" style="margin-right: 8rem;"><b>About Us</b></a>
+              <a class="nav-link" href="about.html" style="margin-right: 8rem;"><b>About Us</b></a>
             </li>
           </ul>
           <form class="d-flex" style="position: absolute;right: 150px;">
@@ -66,36 +66,24 @@
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, quia obcaecati perspiciatis possimus facere quam accusantium odit! Alias pariatur laudantium voluptatum quos similique quod aliquam quibusdam iusto voluptatibus, dolor distinctio!</p>
         </div>
         <div class="col">
-          <div class="card" style="margin-left: 4rem;margin-right: 4rem;border-radius: 10px;">
+          <div class="card" style="border-radius: 10px;margin-left: 2rem;margin-right: 2rem;">
             <div class="card-body">
               <p class="card-title"><b>Durasi Peminjaman</b></p>
-              <div class="container text-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-outline-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="padding-left: 1rem;padding-right: 1rem;">
-                    Pilihan Durasi
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">1000 - 1 Hari</a></li>
-                    <li><a class="dropdown-item" href="#">5000 - 5 hari</a></li>
-                    <li><a class="dropdown-item" href="#">10000 - 10 Hari</a></li>
-                    <li><a class="dropdown-item" href="#">30000 - 30 Hari</a></li>
-                  </ul>
-                </div>
-              </div> 
-              <p class="card-title mt-2"><b>Metode Pembayaran</b></p>
-              <div class="container">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-outline-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="margin-left: -0.6rem;">
-                    Pilihan Pembayaran
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Gopay</a></li>
-                    <li><a class="dropdown-item" href="#">Shopeepay</a></li>
-                  </ul>
-                </div>
-              </div> 
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Pilihan Durasi</option>
+                <option value="1">1000 - 1 Hari</option>
+                <option value="2">5000 - 5 hari</option>
+                <option value="3">10000 - 10 Hari</option>
+                <option value="4">30000 - 30 Hari</option>
+              </select>
+              <p class="card-title mt-3"><b>Metode Pembayaran</b></p>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Pilihan Pembayaran</option>
+                <option value="1">Gopay</option>
+                <option value="2">Shopeepay</option>
+              </select>
               <div class="text-center">
-                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="margin-top: 1rem;background-color: #FF9C41;"><span style="color: white;font-size: 15px;">Lanjutkan Pembayaran</span></button>
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="margin-top: 1rem;background-color: #FF9C41;color: white;">Lanjutkan Pembayaran</button>
               </div>
             </div>
           </div>
